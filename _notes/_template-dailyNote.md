@@ -1,8 +1,9 @@
 ---
+uid: {{date:YYYYMMDD}}{{time:HHmmss}}
 aliases: 
 tags: 
     - note/daily
-timestamp: {{date}}T{{time:HH:mm:ssZ}}
+created: {{date::YYYYMMDD}}T{{time:HH:mm:ssZ}}
 ---
 # {{date:YYYY.MM.DD-ddd}}
 ---

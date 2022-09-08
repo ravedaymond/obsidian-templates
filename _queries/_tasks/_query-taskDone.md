@@ -1,4 +1,4 @@
 **Tasks: Done**
 ```query
-task-done:()
+task-done:(/\#task(\s+?|\/\w*\s+?)/)
 ```

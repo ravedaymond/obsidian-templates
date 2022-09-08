@@ -1,3 +1,0 @@
-```query
-task-todo:("") -.template
-```

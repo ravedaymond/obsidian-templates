@@ -9,16 +9,16 @@ date:
 	- year: {{date:YYYY}}
 time: {{time:HH:mm:ss}}
 ---
-# {{date}}
+# {{date:YYYY.MM.DD-ddd}}
 ---
 
 ---
 ## To Do
-- [ ] 
+- [ ] #task 
 
 ---
 ## Goals
-- 
+- #goal 
 
 ---
 

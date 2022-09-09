@@ -1,3 +1,10 @@
+---
+aliases: 
+    - Templates
+tags:
+    - obsidianMD
+    - zettelkasten
+---
 # Templates for Obsidian MD
 Collection of template files used in Obsidian MD. Shared publicly.
 
@@ -14,6 +21,6 @@ All files are subject to change.
 - [Obsidian HUB](https://publish.obsidian.md/hub/)
 - [Obsidian Publish](https://obsidian.md/publish)
 
-## Zettelkasten
+## Zettelkasten 
 - [Wikipedia](https://en.wikipedia.org/wiki/Zettelkasten)
 - [Zettelkasten.de](https://zettelkasten.de/posts/overview/)

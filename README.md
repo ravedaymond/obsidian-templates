@@ -1,6 +1,7 @@
 ---
 aliases: 
     - Templates
+    - Templates Readme
 tags:
     - obsidianMD
     - zettelkasten
@@ -18,6 +19,7 @@ All files are subject to change.
 - [GitHub](https://github.com/obsidianmd)
 - [Website](https://obsidian.md/)
 - [Documentation](https://help.obsidian.md/)
+- [Community Plugins](https://obsidian.md/plugins)
 - [Obsidian HUB](https://publish.obsidian.md/hub/)
 - [Obsidian Publish](https://obsidian.md/publish)
 

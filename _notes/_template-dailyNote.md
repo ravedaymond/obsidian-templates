@@ -17,4 +17,7 @@ created: {{date::YYYYMMDD}}T{{time:HH:mm:ssZ}}
 - #goal 
 
 ---
+## Quotes
+>[!quote]
+
 

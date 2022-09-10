@@ -7,17 +7,10 @@ created: {{date::YYYYMMDD}}T{{time:HH:mm:ssZ}}
 ---
 # {{date:YYYY.MM.DD-ddd}}
 ---
-
----
 ## To Do
 - [ ] #task 
 
 ---
-## Goals
-- #goal 
-
----
 ## Quotes
 >[!quote]
-
 

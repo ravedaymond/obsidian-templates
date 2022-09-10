@@ -13,6 +13,8 @@ Templates directory (`_templates`) is a child of a parent folder (`_meta`) in th
 
 All templates utilize a UID (unique identifier) value that follows the [Zettelkasten](#Zettelkasten) method of storing information. This value is stored in the metadata of each template as the `uid` key, with it's value being a formatted date-time value (`YYYYMMDDHHmmss`).
 
+Feel free to open an issue for suggestions or if there are any problems found with existing templates.
+
 All files are subject to change.
 
 ## Obsidian Links

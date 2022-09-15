@@ -1,4 +1,4 @@
 **Tasks: Work In Progress**
 ```query
-task-todo:(/\#task\/\wip\s+?/)
+-path:(_template) task-todo:(/\#task\/\wip\s+?/)
 ```

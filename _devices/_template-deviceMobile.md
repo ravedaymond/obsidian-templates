@@ -23,3 +23,6 @@ os: ""
 | Bluetooth     |      |
 | Storage       |   |
 
+## Operating System
+### Changes to Default Profile/Settings
+- 

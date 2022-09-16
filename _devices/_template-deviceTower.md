@@ -8,11 +8,13 @@ manuf: ""
 model-name: ""
 model-number: ""
 sn: ""
+mac-wifi: "xx:xx:xx:xx:xx:xx"
+mac-bt: "xx:xx:xx:xx:xx:xx"
 os: ""
 ---
 # {{title}}
 ---
-## Specifications
+## Details
 ### Internals
 | Part        | Model | Manufacturer | SN# | Note | Link  |
 | ----------- | ----- | ------------ | --- | ---- | ----- |

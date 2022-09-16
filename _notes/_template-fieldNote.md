@@ -1,9 +1,9 @@
 ---
 uid: {{date:YYYYMMDD}}{{time:HHmmss}}
-aliases:
+created: {{date:YYYY-MM-DD}}T{{time:HH:mm:ssZ}}
+aliases: 
 tags: 
     - note/field
-created: {{date:YYYY-MM-DD}}T{{time:HH:mm:ssZ}}
 ---
 # {{title}}
 ---

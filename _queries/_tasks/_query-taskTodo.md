@@ -1,4 +1,4 @@
 **Open Tasks**
 ```query
--path:(_template) task-todo:(/\#task(\s+?|\/\w*\s+?)/)
+-path:(_template) task-todo:(/\#task\s+\S/)
 ```

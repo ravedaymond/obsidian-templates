@@ -1,4 +1,4 @@
 **Completed Tasks**
 ```query
--path:(_template) task-done:(/\#task(\s+?|\/\w*\s+?)/)
+-path:(_template) task-done:(/\#task\s+\S/)
 ```

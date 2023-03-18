@@ -1,3 +1,9 @@
+---
+aliases: 
+    - Template Tasks
+tags:
+    - template/readme
+---
 # Task Query Templates
 All template file names follow this naming convention: 
 	`_query-task` + `Todo/Done/Status`. If `Status` the append `-statusSubTag` .

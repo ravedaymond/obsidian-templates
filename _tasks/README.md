@@ -5,9 +5,6 @@ tags:
     - template/readme
 ---
 # Task Query Templates
-All template file names follow this naming convention: 
-	`_query-task` + `Todo/Done/Status`. If `Status` the append `-statusSubTag` .
-
 All queries expect that these templates reside within a `_templates/` directory and exclude that folder from any search functions. Each query also has a bolded header defined which is more readable than the query itself when inserting these templates into other vault pages.
 
 | Query Template              | Description                                                        |

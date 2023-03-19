@@ -98,8 +98,10 @@ All regex used is placed within the parenthesis of the built in Obsidian search 
 Query Reference
 ```regex
 // Matches the characters `#task` literally. Followed by any number of spaces. Finally matched by a non-space character.
+
 \#task\s+\S
 
 //Matches the characters `#task` literally. Followed by any number of spaces OR any number of additional sub tags (eg. /subtag/subtag...) that have any number of spaces after the last subtag. Finally matched by a non-space character.
+
 \#task(\s+|((\/\w+)+\s+))\S
 ```

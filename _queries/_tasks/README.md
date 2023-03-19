@@ -42,6 +42,7 @@ These templates utilize the above built in search functions but expand them usin
 - [ ] This is a generic checkbox list item that is not checked.
 - [x] This is a generic checkbox list item that is checked.
 - [?] Any checkbox variant is also considered a generic checkbox list item. 
+	*By default, markdown only supports checked or unchecked boxes within list checkboxes. However, themes can support custom variants for checkboxes.*
 
 - [ ] #task This is a redefined 'task' item that is open.
 - [x] #task This is a redefined 'task' item that is done.
@@ -62,31 +63,32 @@ We can expand upon our redefined task workflow by using sub-tags to define a 'st
 The above are just a few examples of expected status sub-tags that could be used. 
 
 ---
-## Obsidian Task Checkbox Variants
-This section can be used as an offline reference to the checkbox variants that are available within Obsidian. You can view also this list on the official documentation.
+## Minimal Theme Checkbox Variants
+This section can be used as an offline reference to the checkbox variants that are available within the Minimal Theme. You can view also this list on the [official documentation](https://github.com/kepano/obsidian-minimal#alternate-checkboxes).
 
 *The below list is up to date as of: 2023-03-18*
-- [ ] `- [ ] `: To-Do; Open; Incomplete; Unchecked;
-- [x] `- [x] `: Done; Closed; Complete; Checked;
-      Markdown syntax standard is to use the `x` character when marking a list checkbox. Characters that have no variant will default to this checkbox.
-- [i] `- [i] `: Info; Information; Informational;
-- [?] `- [?] `: Question; FAQ; 
-- [!] `- [!] `: Important; Alert; Warning; 
-- [<] `- [<] `: Date; Calendar; Event;
-- [>] `- [>] `: Arrow;
-- [*] `- [*] `: Star;
-- [p] `- [p] `: Positive; Approved; Thumbs-up;
-- [c] `- [c] `: Negative; Declined; Thumbs-down;
-- [u] `- [u] `: Upwards; Rising; Gain;
-- [d] `- [d] `: Downwards; Falling; Loss;
-- [b] `- [b] `: Bookmark
-- [l] `- [l] `: Location; GPS; Pin;
-- [f] `- [f] `: Hot; Trending; Popular;
-- [k] `- [k] `: Key; Password; 
-- [w] `- [w] `: Event; 
-- [/] `- [/] `: 
-- [^] `- [^] `: Footnote;
-- [-] `- [-] `: Strikethrough;
+- [ ] `- [ ] `: to-do
+- [/] `- [/] `: incomplete
+- [x] `- [x] `: done
+- [-] `- [-] `: cancelled 
+- [>] `- [>] `: forwarded
+- [<] `- [<] `: scheduling
+- [?] `- [?] `: question 
+- [!] `- [!] `: important
+- [*] `- [*] `: star
+- ["] `- ["] `: quote 
+- [l] `- [l] `: location
+- [b] `- [b] `: bookmark
+- [i] `- [i] `: information
+- [S] `- [S] `: savings 
+- [I] `- [I] `: idea
+- [p] `- [p] `: pros
+- [c] `- [c] `: cons
+- [f] `- [f] `: fire
+- [k] `- [k] `: key
+- [w] `- [w] `: win
+- [u] `- [u] `: up
+- [d] `- [d] `: down
 
 ---
 ## Regex Help

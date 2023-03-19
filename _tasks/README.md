@@ -55,7 +55,7 @@ We can expand upon our redefined task workflow by using sub-tags to define a 'st
 - [x] #task/done This task has the 'done' status.
 
 The above are just a few examples of expected status sub-tags that could be used. To create a new template that uses status, simply append `\/status` after `#task` in the query:
-`task-todo:(/\#task\s+\S/)` -> `task-todo:(/\#task\/status\s+\S/)`
+`task-todo:(/\#task/)` -> `task-todo:(/\#task\/status/)`
 
 ---
 ## Minimal Theme Checkbox Variants
@@ -92,9 +92,13 @@ All regex used is placed within the parenthesis of the built in Obsidian search 
 - https://regex101.com/
 - https://regexr.com/
 
-Query Reference
+## Query Reference
 ```regex
-// Matches the characters `#task` literally. Followed by any number of spaces. Finally matched by a non-space character.
+// Matches the characters `#task` literally.
+
+/\#task/
+
+// Matches the characters `#task` literally. Followed by any number of spaces. Finally matched by a non-space character. This query ignores any bad formatted or empty tasks.
 
 \#task\s+\S
 

@@ -10,13 +10,10 @@ All template file names follow this naming convention:
 
 All queries expect that these templates reside within a `_templates/` directory and exclude that folder from any search functions. Each query also has a bolded header defined which is more readable than the query itself when inserting these templates into other vault pages.
 
-| Query Template                         | Description                                                                  |
-| -------------------------------------- | ---------------------------------------------------------------------------- |
-| [Open Tasks](_query-taskTodo.md)       | Shows all tasks that are not marked as done, regardless of status.           |
-| [Done Tasks](_query-taskDone.md)       | Shows all tasks that are marked as done, regardless of status.               |
-| [Status Open](_query-taskStatus-open.md) | Shows all tasks that that are not marked as done, with the status of 'open'. |
-| [Status WIP](_query-taskStatus-wip.md)   | Shows all tasks that that are not marked as done, with the status of 'open'. |
-| [Status Done](_query-taskStatus-done.md)                            | Shows all tasks that are marked as done, with a status of 'done'.            |
+| Query Template              | Description                                                        |
+| --------------------------- | ------------------------------------------------------------------ |
+| [Open Tasks](_task-todo.md) | Shows all tasks that are not marked as done, regardless of status. |
+| [Done Tasks](_task-done.md) | Shows all tasks that are marked as done, regardless of status.     |
 
 Continue reading to understand the concept behind redefining the task workflow in [Obsidian](https://obsidian.md/).
 
@@ -60,7 +57,8 @@ We can expand upon our redefined task workflow by using sub-tags to define a 'st
 - [x] #task This task has no status, but is marked as done (considered done by default).
 - [x] #task/done This task has the 'done' status.
 
-The above are just a few examples of expected status sub-tags that could be used. 
+The above are just a few examples of expected status sub-tags that could be used. To create a new template that uses status, simply append `\/status` after `#task` in the query:
+`task-todo:(/\#task\s+\S/)` -> `task-todo:(/\#task\/status\s+\S/)`
 
 ---
 ## Minimal Theme Checkbox Variants

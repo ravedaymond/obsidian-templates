@@ -7,10 +7,11 @@ tags:
 # Task Query Templates
 All queries expect that these templates reside within a `_templates/` directory and exclude that folder from any search functions. Each query also has a bolded header defined which is more readable than the query itself when inserting these templates into other vault pages.
 
-| Query Template              | Description                                                        |
-| --------------------------- | ------------------------------------------------------------------ |
-| [Open Tasks](_task-todo.md) | Shows all tasks that are not marked as done, regardless of status. |
-| [Done Tasks](_task-done.md) | Shows all tasks that are marked as done, regardless of status.     |
+| Query Template                             | Description                                   |
+| ------------------------------------------ | --------------------------------------------- |
+| [_task-todo-all.md](_task-todo-all.md)     | Shows all open tasks across the entire vault. |
+| [_task-done-all.md](_task-done-all.md)     | Shows all done tasks across the entire vault. |
+| [_task-todo-notes.md](_task-todo-notes.md) | Shows all open tasks within the notes folder. |
 
 Continue reading to understand the concept behind redefining the task workflow in [Obsidian](https://obsidian.md/).
 

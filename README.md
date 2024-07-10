@@ -1,6 +1,6 @@
 ---
 aliases: 
-	- Templates
+    - Templates
 tags:
     - template/readme
 ---
